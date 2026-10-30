@@ -8,7 +8,7 @@ alabaster==0.7.12
     # via sphinx
 babel==2.10.3
     # via sphinx
-certifi==2022.6.15
+certifi==2026.10.18
     # via requests
 charset-normalizer==2.1.0
     # via requests
@@ -16,7 +16,7 @@ docutils==0.17.1
     # via
     #   sphinx
     #   sphinx-rtd-theme
-idna==3.3
+idna==3.20
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -30,6 +30,8 @@ pygments==2.12.0
     # via sphinx
 pyparsing==3.0.9
     # via packaging
+python-docs-theme==2025.2
+    # via -r requirements.in
 pytz==2022.1
     # via babel
 requests==2.28.1
@@ -38,10 +40,14 @@ snowballstemmer==2.2.0
     # via sphinx
 sphinx==5.0.2
     # via
-    #   -r docs/requirements.in
+    #   -r requirements.in
+    #   python-docs-theme
+    #   sphinx-argparse
     #   sphinx-rtd-theme
+sphinx-argparse==0.5.0
+    # via -r requirements.in
 sphinx-rtd-theme==1.0.0
-    # via -r docs/requirements.in
+    # via -r requirements.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
@@ -56,6 +62,3 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 urllib3==1.26.9
     # via requests
-python-docs-theme
-
-sphinx-argparse
